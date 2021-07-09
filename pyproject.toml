@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "radar"
+version = "0.1.0"
+description = "A small Python package for plotting radar charts."
+authors = ["Max Scheijen <maxscheijen@gmail.com>"]
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+matplotlib = "^3.4.2"
+numpy = "^1.21.0"
+pandas = "^1.3.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+flake8 = "^3.9.2"
+flake8-docstrings = "^1.6.0"
+isort = "^5.9.2"
+pre-commit = "^2.13.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
